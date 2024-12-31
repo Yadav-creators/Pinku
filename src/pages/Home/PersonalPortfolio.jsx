@@ -16,15 +16,16 @@ const PersonalPortfolio = () => {
   return (
     <Layout header={2} footer={2} className="black-background">
       <BannerTwo />
-      <BrandArea />
+     
       <AboutAreaTwo />
       <CounterArea />
+      {/* <BrandArea /> */}
       <ServicesAreaTwo />
       <ProjectAreaTwo />
-      <PricingArea />
+      {/* <PricingArea /> */}
       <WorkArea />
       <TestimonialAreaTwo />
-      <BlogAreaTwo />
+      {/* <BlogAreaTwo /> */}
       <Contact />
     </Layout>
   );

@@ -1573,7 +1573,7 @@
     max-width: 200px;
   }
   .banner-content-two .title {
-    font-size: 40px;
+    font-size: 34px;
     margin-bottom: 25px;
   }
   .banner-shape-wrap-two img:nth-child(1) {
@@ -1591,10 +1591,10 @@
     display: none;
   }
   .banner-area-two {
-    padding: 90px 0 90px;
+    padding: 90px 0 30px;
   }
   .about-area-two {
-    padding: 100px 0 185px;
+    padding: 100px 0 115px;
   }
   .about-shape-wrap .shape-one {
     top: 4%;
@@ -1616,7 +1616,7 @@
     padding: 50px 35px 20px 35px;
   }
   .services-area-two {
-    padding: 180px 0 70px;
+    padding: 150px 0 30px;
   }
   .project-area-two {
     padding: 90px 0 70px;
@@ -2149,7 +2149,7 @@
     bottom: 34.5%;
   }
   .banner-content-two .title {
-    font-size: 43px;
+    font-size: 36px;
   }
   .about-shape-wrap .shape-one {
     top: 4%;

@@ -6,7 +6,7 @@ const CounterAreaItem = ({ amount, info }) => {
     <div className="counter-item">
       <span className="count odometer" data-count="535">
         <Odometer
-          value={amount}
+          value={amount*1}
           format="(,ddd).dd"
           duration={1000}
           animation={"count"}

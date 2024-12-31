@@ -8,14 +8,15 @@ const BannerTwo = () => {
         <div className="row align-items-center">
           <div className="col-xl-6 col-lg-5">
             <div className="banner-img-two">
-              <img src="/img/banner/h2_banner_img.png" alt="" />
+              
+              <img src="/img/banner/home.svg" alt="" />
             </div>
           </div>
           <div className="col-xl-6 col-lg-7">
             <div className="banner-content-two">
-              <span className="sub-title">Hi, I am John William</span>
+              <span className="sub-title">Hi, I am Bhoopendra</span>
               <h2 className="title">
-                Professional Product <span>Designer</span> Based in USA
+                Professional Shopify <span>Developer</span> Based in India
               </h2>
               <div className="banner-content-bottom">
                 <Link to="/contact" className="btn">

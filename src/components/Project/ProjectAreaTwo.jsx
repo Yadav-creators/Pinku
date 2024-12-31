@@ -5,32 +5,53 @@ import cn from "classnames";
 const ProjectAreaTwo = () => {
   const project_items = [
     {
-      url: "/project-details",
-      src: "/img/project/h2_project_img01.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
-      className: "cat-three cat-two",
+      url: "https://miduty.in",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/OBpOuR8gTdUTVsVPQSLJv5TQNQ_1.png?v=1735650880",
+      title: "Miduty",
+      desc: "India's Number 1 Nutraceutical Brand and Online Supplement Store",
+      className: "cat-one",
     },
     {
-      url: "/project-details",
-      src: "/img/project/h2_project_img02.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
-      className: "cat-four cat-five",
+      url: "https://aceblend.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_1_2.png?v=1735655688",
+      title: "Ace Blend",
+      desc: "Nature-based modern nutrition crafted for everybody",
+      className: "cat-one",
     },
     {
-      url: "/project-details",
-      src: "/img/project/h2_project_img03.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
-      className: "cat-two cat-one",
+      url: "https://www.gleefullsupps.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_2.png?v=1735657322",
+      title: "GleeFull Supps",
+      desc: "Nature-based modern nutrition crafted for everybody",
+      className: "cat-one",
     },
     {
-      url: "/project-details",
-      src: "/img/project/h2_project_img04.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
-      className: "cat-four cat-five",
+      url: "https://wellbeingnutrition.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/66d2e8c91e73c0ca7470edf4_Wellbeing-p-500.png?v=1735650879",
+      title: "Wellbeing Nutrition India",
+      desc: "Health and Beauty Supplements Online",
+      className: "cat-one",
+    },
+    {
+      url: "https://www.zeroharm.in",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/66d2e90210a8d05fd3f131fc_ZEOHARM-p-500.png?v=1735650879",
+      title: "Zeroharm Sciences",
+      desc: "100% Plant Based Natural Health Supplements India",
+      className: "cat-one",
+    },
+    {
+      url: "https://thegoodbug.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/66d2e21b1c22d08713e8227c_GOODBUG-p-500.png?v=1735652952",
+      title: "The Good Bug",
+      desc: "Enhance Your Health with Daily Probiotics",
+      className: "cat-one",
+    },
+    {
+      url: "https://supplysix.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/66d2e910942268b324a5f96b_GOOdStuff-p-500.png?v=1735652953",
+      title: "Daily Nutrition Simplified",
+      desc: "Foundational Nutrition for a Happy and Healthier life.",
+      className: "cat-one",
     },
     {
       url: "/project-details",
@@ -49,29 +70,26 @@ const ProjectAreaTwo = () => {
   ];
 
   const filters = [
-    {
-      filter: "*",
-      label: "View All",
-    },
+
     {
       filter: "cat-one",
-      label: "App",
+      label: "Health and Supplements",
     },
     {
       filter: "cat-two",
-      label: "Website",
+      label: "Clothing",
     },
     {
       filter: "cat-three",
-      label: "Landing Page",
+      label: "Beauty and jwellery",
     },
     {
       filter: "cat-four",
-      label: "Branding-app",
+      label: "Decor",
     },
     {
       filter: "cat-five",
-      label: "Product Design",
+      label: "Some Fanastic Plus stores",
     },
   ];
 
@@ -84,7 +102,7 @@ const ProjectAreaTwo = () => {
       el.className.split(" ").includes(filter)
     );
     setSelectedFilter(filter);
-    setItems(filter === "*" ? project_items : newItems);
+    setItems(filter === "cat-one" ? project_items : newItems);
   };
 
   return (

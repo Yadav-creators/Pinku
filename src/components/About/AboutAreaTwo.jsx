@@ -20,18 +20,16 @@ const AboutAreaTwo = () => {
           <div className="col-lg-6">
             <div className="about-content-two">
               <div className="section-title white-title title-style-two mb-30">
-                <span className="sub-title">I'm a Designer</span>
+                <span className="sub-title">I'm a Shopify Developer</span>
                 <h2 className="title">
-                  I Can Design per <br />
-                  Your Requirement
+                I Can Build Shopify Solutions <br />
+                That Fit Your Needs
                 </h2>
               </div>
               <p>
-                Hello there! I'm a web designer, and I'm very passionate and
-                dedicated to my work. With 20 years experience as a professional
-                web developer, I have acquired the skills and knowledge
-                necessary to make your project a success. I enjoy every step of
-                the design process, from discussion and collaboration.
+              Hello there! I'm a Shopify Developer, and I’m incredibly passionate and dedicated to creating exceptional e-commerce experiences. With over 20 years of experience as a professional developer, I have mastered the skills and knowledge required to bring your online store to life.
+<br />
+From customizing themes to developing unique features, I ensure your Shopify store not only meets but exceeds your expectations. I enjoy every step of the development process, from ideation and collaboration to delivering a polished product.
               </p>
               <Link to="/contact">
                 <span className="arrow">

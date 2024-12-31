@@ -5,11 +5,14 @@ const BrandArea = () => {
   const slick_settings = {
     dots: false,
     infinite: true,
-    speed: 1000,
     autoplay: true,
     arrows: false,
-    slidesToShow: 6,
-    slidesToScroll: 2,
+    slidesToShow: 3,
+    cssEase: 'linear',
+    pauseOnHover: true,
+    autoplaySpeed: 0,
+    speed: 5000,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1200,
@@ -37,7 +40,7 @@ const BrandArea = () => {
       {
         breakpoint: 575,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           arrows: false,
         },

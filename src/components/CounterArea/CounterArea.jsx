@@ -8,19 +8,31 @@ const CounterArea = () => {
         <div className="counter-item-wrap">
           <div className="row">
             <div className="col-lg-3 col-sm-6">
-              <CounterAreaItem amount={3} info={["Project", "Completed"]} />
+            <div class="counter-item">
+             <span>50+</span>
+             <p>Shopify Stores Launched</p>
+             </div>
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <CounterAreaItem amount={4} info={["Our Happy", "Clients"]} />
+            <div class="counter-item">
+             <span>46+</span>
+             <p>Satisfied Clients</p>
+             </div>
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <CounterAreaItem amount={5} info={["Cup of", "Coffee for Me"]} />
+            <div class="counter-item">
+             <span>50+</span>
+             <p>Cups of Coffee Fueled Innovation</p>
+             </div>
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <CounterAreaItem amount={6} info={["Clients Work", "With Me"]} />
+            <div class="counter-item">
+             <span>30+</span>
+             <p>Collaborations and Partnerships</p>
+             </div>
             </div>
           </div>
         </div>
