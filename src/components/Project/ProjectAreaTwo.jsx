@@ -54,18 +54,74 @@ const ProjectAreaTwo = () => {
       className: "cat-one",
     },
     {
-      url: "/project-details",
-      src: "/img/project/h2_project_img05.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
-      className: "cat-one cat-five",
+      url: "https://cannavedic.in",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_4.png?v=1735822390",
+      title: "Cannavedic",
+      desc: "Buy CBD Oil India | Licensed Under Ministry of Ayush",
+      className: "cat-one",
     },
     {
-      url: "/project-details",
-      src: "/img/project/h2_project_img06.jpg",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply",
-      className: "cat-two cat-five",
+      url: "https://www.aumi4.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_12.png?v=1735828545",
+      title: "Aumi4",
+      desc: "Experience the finest in online fashion shopping with AUMI4.",
+      className: "cat-two",
+    },
+    {
+      url: "https://wearanemoia.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_8.png?v=1735826173",
+      title: "Wearanemoia",
+      desc: "We are outsiders looking in.",
+      className: "cat-two",
+    },
+    {
+      url: "https://raf-clothing.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_5.png?v=1735823696",
+      title: "RAF",
+      desc: "When you wear the garments of RAF, you are not just wearing outfits.",
+      className: "cat-two",
+    },
+    {
+      url: "https://quodbyikshitpande.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_6.png?v=1735824077",
+      title: "QUOD",
+      desc: "QUOD fuses period femininity with classic tailoring and modern streetwear.",
+      className: "cat-two",
+    },
+    {
+      url: "https://serrakirdar.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_7.png?v=1735824426",
+      title: "Serra Kirdar",
+      desc: "Serrakirdar is the global go-to platform for curated fashion edits from edgy independent brands.",
+      className: "cat-two",
+    },
+    {
+      url: "https://serrakirdar.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_9.png?v=1735826832",
+      title: "Renu-oberoi",
+      desc: "DISCOVER THE WORLD OF RENU OBEROI",
+      className: "cat-three",
+    },
+    {
+      url: "https://www.deepagurnani.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_10.png?v=1735827238",
+      title: "Deepa Gurnani",
+      desc: "Luxury Handmade Accessories",
+      className: "cat-three",
+    },
+    {
+      url: "https://www.afewwoodmen.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_11_1.png?v=1735827758",
+      title: "A Few Wood Men",
+      desc: "A Few Wood Men crafts stylish wooden and metal timepieces for men worldwide.",
+      className: "cat-three",
+    },
+    {
+      url: "https://serrakirdar.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_7.png?v=1735824426",
+      title: "Serra Kirdar",
+      desc: "Serrakirdar is the global go-to platform for curated fashion edits from edgy independent brands.",
+      className: "cat-three",
     },
   ];
 
@@ -93,7 +149,7 @@ const ProjectAreaTwo = () => {
     },
   ];
 
-  const [selectedFilter, setSelectedFilter] = useState("*");
+  const [selectedFilter, setSelectedFilter] = useState("cat-one");
 
   const [items, setItems] = useState(project_items);
 
@@ -102,7 +158,7 @@ const ProjectAreaTwo = () => {
       el.className.split(" ").includes(filter)
     );
     setSelectedFilter(filter);
-    setItems(filter === "cat-one" ? project_items : newItems);
+    setItems(filter === "*" ? project_items : newItems);
   };
 
   return (
@@ -111,11 +167,9 @@ const ProjectAreaTwo = () => {
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-9">
             <div className="section-title title-style-two white-title mb-60 text-center">
-              <span className="sub-title">Portfolio</span>
-              <h2 className="title">You Will Like These Design Made by Me</h2>
+              <h2 className="title">You Will Like These Stores Made by Me</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard.
+              We build high-performance Shopify Stores pages that are optimized for speed, functionality, and seamless user interactions.
               </p>
             </div>
           </div>
