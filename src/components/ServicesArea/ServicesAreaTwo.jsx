@@ -5,32 +5,26 @@ const ServicesAreaTwo = () => {
   const services_two_items = [
     {
       src: "/img/icon/services_icon01.png",
-      url: "/services-details",
-      title: "UI Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    },
-    {
-      src: "/img/icon/services_icon21.png",
-      url: "/services-details",
-      title: "Motion Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      url: "",
+      title: "Website Development",
+      desc: "Build responsive and user-friendly websites tailored to your business needs.",
     },
     {
       src: "/img/icon/services_icon03.png",
-      url: "/services-details",
-      title: "Prototype",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      url: "",
+      title: "Landing Page",
+      desc: "Design high-converting landing pages to boost engagement and drive sales.",
     },
     {
       src: "/img/icon/services_icon04.png",
-      url: "/services-details",
-      title: "UX Research",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      url: "",
+      title: "Shopify Apps",
+      desc: "Create custom Shopify apps to enhance store functionality and improve user experience.",
     },
   ];
 
   return (
-    <section className="services-area-two">
+    <section className="services-area-two" id="service">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">

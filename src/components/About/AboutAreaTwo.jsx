@@ -9,7 +9,7 @@ const AboutAreaTwo = () => {
   });
 
   return (
-    <section className="about-area-two">
+    <section className="about-area-two" id="about">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 order-0 order-lg-2">
@@ -27,11 +27,11 @@ const AboutAreaTwo = () => {
                 </h2>
               </div>
               <p>
-              Hello there! I'm a Shopify Developer, and I’m incredibly passionate and dedicated to creating exceptional e-commerce experiences. With over 20 years of experience as a professional developer, I have mastered the skills and knowledge required to bring your online store to life.
+              Hello there! I'm a Shopify Developer, and I’m incredibly passionate and dedicated to creating exceptional e-commerce experiences. With over 4 years of experience as a professional developer, I have mastered the skills and knowledge required to bring your online store to life.
 <br />
 From customizing themes to developing unique features, I ensure your Shopify store not only meets but exceeds your expectations. I enjoy every step of the development process, from ideation and collaboration to delivering a polished product.
               </p>
-              <Link to="/contact">
+              <Link to="https://wa.me/917379081148">
                 <span className="arrow">
                   <img src="/img/icon/right_arrow.svg" alt="" />
                 </span>

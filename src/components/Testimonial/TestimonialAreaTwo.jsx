@@ -9,7 +9,7 @@ const TestimonialAreaTwo = () => {
     speed: 1000,
     autoplay: true,
     arrows: false,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {
@@ -48,46 +48,28 @@ const TestimonialAreaTwo = () => {
 
   const testimonial_items = [
     {
-      desc: `‘’Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry Lorem Ipsum has been the standard dummy text”`,
-      title: "Alfredo Bator",
-      designation: "Director of Marketing",
-      src: "/img/images/testimonial_avatar01.png",
+      desc: `‘’Working with Bhoopendra was an absolute pleasure. They built us a stunning Shopify store that perfectly represents our brand. The functionality and user experience are top-notch! Highly recommend their services.”`,
+      title: "Abeer",
+      designation: "Director of Anemoia",
+      src: "",
     },
     {
-      desc: `‘’Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry Lorem Ipsum”`,
-      title: "Alfredo Bator",
-      designation: "Director of Marketing",
-      src: "/img/images/testimonial_avatar02.png",
+      desc: `‘’Thanks to Bhoopendra, our Shopify store now looks professional and performs flawlessly. They customized features we never thought possible, and our sales have doubled since the relaunch!”`,
+      title: "Nilay",
+      designation: "Ace Blend CTO",
+      src: "",
     },
     {
-      desc: `‘’Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry Lorem Ipsum has been the standard dummy text”`,
-      title: "Alfredo Bator",
-      designation: "Director of Marketing",
-      src: "/img/images/testimonial_avatar03.png",
+      desc: `‘’From start to finish, the process was seamless. Bhoopendra created a visually appealing Shopify store with all the features we needed to scale. Our customers love the new look!”`,
+      title: "Kanica",
+      designation: "Manager of Deepa Gurnani",
+      src: "",
     },
     {
-      desc: `‘’Lorem Ipsum is simply dummy text of typesetting
-      industry Lorem Ipsum has been the standard dummy text”`,
-      title: "Alfredo Bator",
-      designation: "Director of Marketing",
-      src: "/img/images/testimonial_avatar04.png",
-    },
-    {
-      desc: `‘’Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry Lorem Ipsum has been the standard dummy text”`,
-      title: "Alfredo Bator",
-      designation: "Director of Marketing",
-      src: "/img/images/testimonial_avatar02.png",
-    },
-    {
-      desc: `‘’Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry Lorem Ipsum dummy text”`,
-      title: "Alfredo Bator",
-      designation: "Director of Marketing",
-      src: "/img/images/testimonial_avatar04.png",
+      desc: `‘’I’m so impressed with the Shopify store that Bhoopendra built for us. It’s fast, user-friendly, and optimized for conversions. They went above and beyond to make sure every detail was perfect.”`,
+      title: "Ashish Shah",
+      designation: "Founder of Atelier",
+      src: "",
     },
   ];
 
@@ -98,7 +80,7 @@ const TestimonialAreaTwo = () => {
           <div className="col-lg-9">
             <div className="section-title title-style-two white-title text-center mb-60">
               <span className="sub-title">Testimonial</span>
-              <h2 className="title">What People Say About Us</h2>
+              <h2 className="title">What People Say About Me</h2>
             </div>
           </div>
         </div>

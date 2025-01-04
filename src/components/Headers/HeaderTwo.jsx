@@ -122,10 +122,16 @@ const HeaderTwo = () => {
                         </li> */}
 
                         <li className={cn(isActiveClassName("/about-us"))}>
-                          <Link to="/about-us">About Us</Link>
+                          <Link to="#about">About Us</Link>
+                        </li>
+                        <li className={cn(isActiveClassName("/about-us"))}>
+                          <Link to="#service">Services</Link>
+                        </li>
+                        <li className={cn(isActiveClassName("/about-us"))}>
+                          <Link to="#portfolio">Portfolio</Link>
                         </li>
 
-                        <li
+                        {/* <li
                           className={cn(
                             "menu-item-has-children",
                             [
@@ -173,7 +179,7 @@ const HeaderTwo = () => {
                               <Link to="/contact">Contact Us</Link>
                             </li>
                           </ul>
-                        </li>
+                        </li> */}
 
                         {/* <li
                           className={cn(
@@ -200,7 +206,7 @@ const HeaderTwo = () => {
                     <div className="header-action">
                       <ul className="list-wrap">
                         <li className="header-btn">
-                          <a href="#!" className="btn">
+                          <a href="https://wa.me/917379081148" className="btn">
                             Contact <span></span>
                           </a>
                         </li>

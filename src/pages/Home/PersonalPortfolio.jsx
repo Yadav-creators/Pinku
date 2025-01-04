@@ -23,10 +23,10 @@ const PersonalPortfolio = () => {
       <ServicesAreaTwo />
       <ProjectAreaTwo />
       {/* <PricingArea /> */}
-      <WorkArea />
+      {/* <WorkArea /> */}
       <TestimonialAreaTwo />
       {/* <BlogAreaTwo /> */}
-      <Contact />
+      {/* <Contact /> */}
     </Layout>
   );
 };

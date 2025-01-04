@@ -19,28 +19,34 @@ const BannerTwo = () => {
                 Professional Shopify <span>Developer</span> Based in India
               </h2>
               <div className="banner-content-bottom">
-                <Link to="/contact" className="btn">
-                  Contact Us <span></span>
-                </Link>
+              {/* <div className="header-action">
+                      <ul className="list-wrap">
+                        <li className="header-btn">
+                          <a href="https://wa.me/917379081148" className="btn">
+                            Contact <span></span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div> */}
                 
                 <ul className="list-wrap">
                   <li>
-                    <a href="#">
+                    <a href="https://www.instagram.com/bhoopendra097">
                       <img src="/img/icon/banner_icon01.svg" alt="" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <img src="/img/icon/banner_icon02.svg" alt="" />
+                    <a href="https://github.com/Yadav-creators">
+                      <img className="linsedhhhjh" src="https://cdn.shopify.com/s/files/1/0778/3012/7901/files/git-svgrepo-com.svg?v=1735975440" alt="" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <img src="/img/icon/banner_icon03.svg" alt="" />
+                    <a href="https://www.linkedin.com/in/yadav-creators">
+                      <img className="linsedhhhjh" src="https://cdn.shopify.com/s/files/1/0778/3012/7901/files/linkedin-svgrepo-com.svg?v=1735975286" alt="" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://wa.me/917379081148">
                       <img src="/img/icon/banner_icon04.svg" alt="" />
                     </a>
                   </li>

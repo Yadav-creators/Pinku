@@ -5,9 +5,9 @@ const ProjectAreaTwoItem = (props) => {
   return (
     <div className="project-item-two">
       <div className="project-thumb-two">
-        <Link to={props.item.url}>
+       
           <img src={props.item.src} alt="" />
-        </Link>
+       
       </div>
       <div className="project-content-two">
         <h2 className="title">

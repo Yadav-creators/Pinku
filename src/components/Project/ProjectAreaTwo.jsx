@@ -30,7 +30,7 @@ const ProjectAreaTwo = () => {
       src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/66d2e8c91e73c0ca7470edf4_Wellbeing-p-500.png?v=1735650879",
       title: "Wellbeing Nutrition India",
       desc: "Health and Beauty Supplements Online",
-      className: "cat-one",
+      className: "cat-one , cat-five",
     },
     {
       url: "https://www.zeroharm.in",
@@ -123,6 +123,84 @@ const ProjectAreaTwo = () => {
       desc: "Serrakirdar is the global go-to platform for curated fashion edits from edgy independent brands.",
       className: "cat-three",
     },
+    {
+      url: "https://5minskin.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_252_1.png?v=1735970205",
+      title: "5minskin",
+      desc: "Sculpt 2.0 by 5minskin: at-home laser hair removal with pro, pain-free results. Reduces hair growth in 2-3 weeks with a quartz bulb.",
+      className: "cat-three , cat-five",
+    },
+    {
+      url: "https://juicychemistry.com/pages/color-chemistry",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_26.png?v=1735967520",
+      title: "Color Chemistry",
+      desc: "Buy Natural & Organic Makeup Products Online",
+      className: "cat-three",
+    },
+    {
+      url: "https://www.aminu.life",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_31.png?v=1735967520",
+      title: "Aminu",
+      desc: "High Performing, Wholistic Clean Skincare.",
+      className: "cat-three",
+    },
+    {
+      url: "https://faithandpatience.co.in",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_251.png?v=1735969220",
+      title: "FAITH AND PATIENCE",
+      desc: "India's first Camel milk hair care and skin care brand.",
+      className: "cat-three",
+    },
+    {
+      url: "https://dreamerdesigns.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_261.png?v=1735971279",
+      title: "Dreamer Designs",
+      desc: "Home To The Dreamer Line Of 5D Diamond Painting Kits - A Premium Diamond Painting Experience.",
+      className: "cat-four , cat-five",
+    },
+    {
+      url: "https://atelierashieshshah.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_32.png?v=1735969220",
+      title: "Atelier Ashiesh shah",
+      desc: "Where luxury meets artistry. Explore handcrafted furniture, lighting, and bespoke designs inspired by Indian art forms.",
+      className: "cat-four",
+    },
+    {
+      url: "https://www.radliving.in",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_33.png?v=1735969220",
+      title: "Rad Living",
+      desc: "India's best soy candles, premium fragrances. Find your quirk at our online store today!",
+      className: "cat-four",
+    },  
+    {
+      url: "https://www.miraclebrand.co",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_27.png?v=1735967520",
+      title: "Miraclebrand",
+      desc: "Say goodbye to dirty sheets and towels. Find premium options made with pure, natural silver that kills 99.9% of bacteria.",
+      className: "cat-four , cat-five",
+    },
+    {
+      url: "https://wearedip.co.uk",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_28_1.png?v=1735967519",
+      title: "Wearedip",
+      desc: "Powerful, sustainable, plant based laundry and dishwasher detergent in the form of versatile little strips.",
+      className: "cat-four",
+    },
+    {
+      url: "https://omni.pet",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_262.png?v=1735971859",
+      title: "Omni",
+      desc: "Healthy vegan dog food in the UK, made by vets to be a nutritionally complete meal for your dog.",
+      className: "cat-five",
+    },
+    {
+      url: "https://plantprovisions.com",
+      src: "https://cdn.shopify.com/s/files/1/0778/3012/7901/files/Group_29_219fd480-c4af-4968-a879-52a208c487fe.png?v=1735971859",
+      title: "Plant Provisions",
+      desc: "Our plant-based deli slice flavors include Smokehouse, Tuscan Red Pepper, Wild Truffle, Mesquite BBQ and Chipotle Chili and will bring your sandwich to new heights!",
+      className: "cat-five",
+    },
+
   ];
 
   const filters = [
@@ -145,7 +223,7 @@ const ProjectAreaTwo = () => {
     },
     {
       filter: "cat-five",
-      label: "Some Fanastic Plus stores",
+      label: "Fantastic Plus Stores",
     },
   ];
 
@@ -162,7 +240,7 @@ const ProjectAreaTwo = () => {
   };
 
   return (
-    <section className="project-area-two pt-110 pb-90">
+    <section className="project-area-two pt-110 pb-90" id="portfolio">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-9">

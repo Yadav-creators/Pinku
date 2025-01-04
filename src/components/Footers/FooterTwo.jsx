@@ -15,16 +15,16 @@ const FooterTwo = () => {
                       <img src="/img/logo/w_logo.png" alt="" />
                     </Link>
                   </div>
-                  <p>
+                  {/* <p>
                     Agency is a full-service agency, busy designing and building
                     beautiful digital products, brands, and experiences.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="footer-bottom-two">
+          {/* <div className="footer-bottom-two">
             <div className="row align-items-center">
               <div className="col-md-6">
                 <div className="copyright-text">
@@ -60,7 +60,7 @@ const FooterTwo = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
