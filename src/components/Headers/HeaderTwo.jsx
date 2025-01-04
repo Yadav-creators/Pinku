@@ -270,7 +270,7 @@ const HeaderTwo = () => {
           <div className="header-contact-wrap black-background">
             <div className="container">
               <div className="row">
-                <div className="col-lg-8">
+                <div className="col-lg-12">
                   <div className="left-side-content">
                     <h3 className="title">Contact</h3>
                     <div className="row">
@@ -292,8 +292,9 @@ const HeaderTwo = () => {
                                 </svg>
                               </div>
                               <div className="content">
-                                <a href="mailto:company@gmail.com">
-                                  company@gmail.com
+                                <a href="mailto:yadav.creators@gmail.com">
+                                yadav.creators@gmail.com
+
                                 </a>
                               </div>
                             </li>
@@ -313,7 +314,7 @@ const HeaderTwo = () => {
                               </div>
                               <div className="content">
                                 <span>
-                                  Ranelagh Place, Liverpool, L3 5UL, England
+                                  Mohali , Chandigarh, 160071
                                 </span>
                               </div>
                             </li>
@@ -333,19 +334,19 @@ const HeaderTwo = () => {
                               </div>
                               <div className="content">
                                 <span>
-                                  7 Days a week <br />
-                                  from 10-00 am to 6-00 pm
+                                  6 Days a week <br />
+                                  from 9-00 am to 7-00 pm
                                 </span>
                               </div>
                             </li>
                           </ul>
                           <div className="lats-chat">
-                            <Link to="/contact">Lat’s Chat</Link>
+                            <Link to="https://wa.me/917379081148">Lat’s Chat</Link>
                           </div>
                         </div>
                       </div>
                       <div className="col-xl-8 col-lg-7 col-md-6">
-                        <div className="our-best-project">
+                        {/* <div className="our-best-project">
                           <div className="content">
                             <h4 className="title">
                               One of Our <span>Best Ongoing</span> Projects
@@ -357,12 +358,12 @@ const HeaderTwo = () => {
                           <div className="thumb">
                             <img src="/img/images/our_project_img.png" alt="" />
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4">
+                {/* <div className="col-lg-4">
                   <div className="customer-support-wrap">
                     <h4 className="title">Customer Support</h4>
                     <div className="customer-support-content">
@@ -381,7 +382,7 @@ const HeaderTwo = () => {
                       <a href="contact.html">Documentation</a>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
