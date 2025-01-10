@@ -206,7 +206,7 @@ const HeaderTwo = () => {
                     <div className="header-action">
                       <ul className="list-wrap">
                         <li className="header-btn">
-                          <a href="https://wa.me/917379081148" className="btn">
+                          <a href="https://wa.me/919991307653" className="btn">
                             Contact <span></span>
                           </a>
                         </li>
@@ -292,8 +292,8 @@ const HeaderTwo = () => {
                                 </svg>
                               </div>
                               <div className="content">
-                                <a href="mailto:yadav.creators@gmail.com">
-                                yadav.creators@gmail.com
+                                <a href="mailto:priyankabanwal16@gmail.com">
+                                priyankabanwal16@gmail.com
 
                                 </a>
                               </div>
@@ -341,7 +341,7 @@ const HeaderTwo = () => {
                             </li>
                           </ul>
                           <div className="lats-chat">
-                            <Link to="https://wa.me/917379081148">Lat’s Chat</Link>
+                            <Link to="https://wa.me/919991307653">Lat’s Chat</Link>
                           </div>
                         </div>
                       </div>

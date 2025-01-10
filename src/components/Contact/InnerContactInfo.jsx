@@ -16,7 +16,7 @@ const InnerContactInfo = () => {
       title: "Address",
       desc: (
         <>
-          <a href="mailto:your@email.com">your@email.com</a>
+          <a href="mailto:priyankabanwal16@gmail.com">priyankabanwal16@gmail.com</a>
         </>
       ),
     },

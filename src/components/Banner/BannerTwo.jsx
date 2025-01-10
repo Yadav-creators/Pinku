@@ -14,7 +14,7 @@ const BannerTwo = () => {
           </div>
           <div className="col-xl-6 col-lg-7">
             <div className="banner-content-two">
-              <span className="sub-title">Hi, I am Bhoopendra</span>
+              <span className="sub-title">Hi, I am Priyanka</span>
               <h2 className="title">
                 Professional Shopify <span>Developer</span> Based in India
               </h2>
@@ -31,22 +31,22 @@ const BannerTwo = () => {
                 
                 <ul className="list-wrap">
                   <li>
-                    <a href="https://www.instagram.com/bhoopendra097">
+                    <a href="https://www.instagram.com/priyanka_banwal16/">
                       <img src="/img/icon/banner_icon01.svg" alt="" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/Yadav-creators">
+                    <a href="https://github.com/Priyankabanwal">
                       <img className="linsedhhhjh" src="https://cdn.shopify.com/s/files/1/0778/3012/7901/files/git-svgrepo-com.svg?v=1735975440" alt="" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/yadav-creators">
+                    <a href="https://www.linkedin.com/in/priyankabanwal">
                       <img className="linsedhhhjh" src="https://cdn.shopify.com/s/files/1/0778/3012/7901/files/linkedin-svgrepo-com.svg?v=1735975286" alt="" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://wa.me/917379081148">
+                    <a href="https://wa.me/919991307653">
                       <img src="/img/icon/banner_icon04.svg" alt="" />
                     </a>
                   </li>

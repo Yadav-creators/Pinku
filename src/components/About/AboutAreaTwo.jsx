@@ -31,7 +31,7 @@ const AboutAreaTwo = () => {
 <br />
 From customizing themes to developing unique features, I ensure your Shopify store not only meets but exceeds your expectations. I enjoy every step of the development process, from ideation and collaboration to delivering a polished product.
               </p>
-              <Link to="https://wa.me/917379081148">
+              <Link to="https://wa.me/919991307653">
                 <span className="arrow">
                   <img src="/img/icon/right_arrow.svg" alt="" />
                 </span>

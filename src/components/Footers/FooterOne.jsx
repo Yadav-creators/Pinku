@@ -100,7 +100,7 @@ const FooterOne = () => {
                       </li>
                       <li>
                         <img src="/img/icon/mail_icon.svg" alt="" />
-                        <a href="mailto:company@gmail.com">company@gmail.com</a>
+                        <a href="mailto:your@email.com">priyankabanwal16@gmail.com</a>
                       </li>
                       <li>
                         <img src="/img/icon/loction_icon.svg" alt="" />
