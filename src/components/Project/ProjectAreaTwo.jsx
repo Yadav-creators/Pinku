@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ProjectAreaTwoItem from "./ProjectAreaTwoItem";
 import cn from "classnames";
 
@@ -227,9 +227,22 @@ const ProjectAreaTwo = () => {
     },
   ];
 
-  const [selectedFilter, setSelectedFilter] = useState("cat-one");
-
+  const [selectedFilter, setSelectedFilter] = useState("*");
   const [items, setItems] = useState(project_items);
+
+  useEffect(() => {
+    // Show all items initially
+    const timer = setTimeout(() => {
+      // After a brief moment, filter to show Health and Supplements
+      const healthItems = project_items.filter((el) =>
+        el.className.split(" ").includes("cat-one")
+      );
+      setSelectedFilter("cat-one");
+      setItems(healthItems);
+    }, 1000); // 1 second delay
+
+    return () => clearTimeout(timer);
+  }, []);
 
   const handleFilterChange = (filter) => {
     const newItems = project_items.filter((el) =>
